@@ -6,8 +6,8 @@ namespace ListaLigadaLib
 {
     public class ListaDobleLigada<T> where T : IComparable<T>
     {
-        private Nodo<T> primero;
-        private Nodo<T> ultimo;
+        private Nodo<T>? primero;
+        private Nodo<T>? ultimo;
 
         public void AdicionarOrdenado(T dato)
         {
